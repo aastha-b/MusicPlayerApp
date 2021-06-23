@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="logo"><img src="https://www.pngkey.com/png/full/356-3562324_app-logo-youtube-music-icon.png" />
+            </div>
+            <div class="menu home"><span class="icon material-icons">home</span><span class="menu-text">Home</span>
+            </div>
+            <div class="menu search"><span class="icon material-icons">search</span><span
+                  id="search-input"  class="menu-text">Search</span></div>
+            <div class="menu favourite"><span class="icon material-icons">favorite_border</span><span
+                    class="menu-text">Favorite</span></div>
+            <div class="menu playlist"><span class="icon material-icons">playlist_play</span><span class="playlists menu-text">My
+                    PlayList</span></div>
+        </div>
+        <div class="main-page">
+            <img class="background-image" src="./3425171.jpg">
+            <div class="title">Music Library</div>
+            <div class="songs">
+                <!-- <div class="song-div">
+                    <div class="song-image">
+                        <img src="https://cover.djpunjab.org/50033/300x700/Bullet-Simar-Doraha.jpg" /></div>
+                    <div class="info">
+                        <div class="song-title">Bullet</div>
+                        <div class="artist-name">Simar Doraha</div>
+                        <div class="audio">
+                            <span class="song-icon play material-icons">play_arrow</span>
+                            <input type="range" id="progress-bar" />
+                            <audio
+                                src="http://s48.ve.vc/data/48/50033/297658/Bullet - Simar Doraha (DjPunjab.Com).mp3"></audio>
+                        </div>
+                        <div class="song-icons">
+                            <span class="song-icon  material-icons">add_circle</span>
+                            <span class="song-icon  material-icons">favorite_border</span>
+                        </div>
+                    </div>
+                </div> -->
+                <audio src=""></audio>
+            </div>
+            <!-- <div class="modal">
+                <div class="title">Add PlayList</div>
+                <div class="name"><input type="text"/></div>
+                <div class="addButton"> Add </div>
+            </div> -->
+        </div>
+        <!-- <div class="search-song">  
+        <input class="search-input" type="text" placeholder="Enter Song"/>
+        <span class="search-icon material-icons">
+            search
+            </span>
+       </div> -->
+    </div>
+    <script src="./songs.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
