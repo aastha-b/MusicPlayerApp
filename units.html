@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            font-size: 35px;
+            /* 1em=35px */
+        }
+        .box{
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .px{
+            width: 200px;
+        }
+        .vw{
+            width: 10vw;
+
+        }
+        .em{
+            width: 10em;
+            /* em parent element se size pata lagata hai : em use as a refrence  */
+        }
+        .rem{
+            width: 10rem;
+            /* rem root element se 
+            size pata lagata haijo ki mostly 16px hota hai  */
+        }
+        .ems li{
+            font-size: 1.5em;
+        }
+        .rems li{
+            font-size: 1.25rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box px">i am 200px wide Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Eligendi impedit rerum facilis, harum quasi corporis amet ipsa quae deserunt illum adipisci minima inventore numquam? 
+            Est rem incidunt dolor quo iusto!</div>
+        <div class="box vw">i am 100vw wide</div>
+        <div class="parent">
+        <div class="box em">i am 10em wide </div>
+        
+        </div>
+        <div class="box rem">i am 10rem wide</div>
+   </div>
+    
+</body>
+     <div class="main">
+
+     </div>
+
+     <!-- diffrence between rem and em  -->
+     <ul class="rems">
+         <li>one</li>
+         <li>two</li>
+         <li>three
+             <ul>
+                 <li> three a</li>
+                 <li>three b
+                     <ul 
+                       <li> three b a</li>
+                    </ul>
+                 </li>
+         </li>
+     </ul>
+</html>
